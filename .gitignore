@@ -1,0 +1,17 @@
+# Project exclude paths
+/.gradle/
+/Game of Life/task/build/
+/Game of Life/task/out/
+/Game of Life/task/out/production/classes/
+/Problems/Calculate the number of distinct characters/out/
+/Problems/Calculate the number of distinct characters/out/production/classes/
+/Problems/Interrupting a thread/out/
+/Problems/Interrupting a thread/out/production/classes/
+/Problems/Multiple threads/out/
+/Problems/Multiple threads/out/production/classes/
+/Problems/Starting threads/out/
+/Problems/Starting threads/out/production/classes/
+/Problems/Summing with threads/out/
+/Problems/Summing with threads/out/production/classes/
+/Problems/VeganPizza/out/
+/Problems/VeganPizza/out/production/classes/

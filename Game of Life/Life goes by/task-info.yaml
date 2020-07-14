@@ -1,0 +1,45 @@
+type: edu
+custom_name: stage3
+files:
+- name: test/GameOfLifeTest.java
+  visible: false
+  text: |2
+
+    import common.GameOfLifeStage3Test;
+
+    public class GameOfLifeTest extends GameOfLifeStage3Test {
+
+    }
+  learner_created: false
+- name: test/common/CheckResultUtil.kt
+  visible: false
+  text: |
+    package common
+
+
+    import org.hyperskill.hstest.v6.testcase.CheckResult
+
+    operator fun CheckResult.component1(): Boolean = isCorrect
+    operator fun CheckResult.component2(): String? = feedback
+
+    fun fail(message: String) = CheckResult(false, message)  // TODO: add to repo
+  learner_created: false
+- name: src/life/Main.java
+  visible: true
+  learner_created: true
+- name: src/life/GenerationAlgorithm.class
+  visible: true
+  learner_created: true
+- name: src/life/GameOfLife.class
+  visible: true
+  learner_created: true
+- name: src/life/Main.class
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/54/stages/296/implement
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/54/stages/296/implement">JetBrains
+    Academy</a>
+  time: Tue, 07 Jul 2020 18:06:30 UTC
+record: 3

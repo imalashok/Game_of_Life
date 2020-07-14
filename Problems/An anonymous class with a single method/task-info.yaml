@@ -1,0 +1,17 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "public class Main {\n\n    public static void main(String[] args) {\n\n \
+    \       SingleMethodInterface instance = /* create an instance of an anonymous\
+    \ class here, \n                                            do not forget ; in\
+    \ the end */\n\n        instance.doSomething();\n    }\n}\n\ninterface SingleMethodInterface\
+    \ {\n\n    void doSomething();\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2546
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2546">JetBrains
+    Academy</a></html>
+  time: Wed, 08 Jul 2020 15:30:12 UTC
+record: -1
